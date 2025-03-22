@@ -1,0 +1,28 @@
+.hero-section {
+  position: relative;
+  height: 500px; /* Adjust height as needed */
+  background-image: url("../assets/images/hero-image2.jpg"); /* Updated path */
+  background-size: 120%;
+  background-position: center 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  text-align: center;
+  color: white; /* Text color that contrasts with your image */
+  padding: 0.2rem 2rem;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Semi-transparent background for better readability */
+  border-radius: 8px;
+  max-width: 80%;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+}
