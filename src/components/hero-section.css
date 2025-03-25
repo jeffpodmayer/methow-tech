@@ -1,9 +1,9 @@
 .hero-section {
   position: relative;
-  height: 500px; /* Adjust height as needed */
+  height: 350px; /* Adjust height as needed */
   background-image: url("../assets/images/hero-image2.jpg"); /* Updated path */
   background-size: 120%;
-  background-position: center 30%;
+  background-position: center 20%;
   display: flex;
   align-items: center;
   justify-content: center;
