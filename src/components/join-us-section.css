@@ -1,0 +1,44 @@
+.join-us-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0 0 2rem 0;
+}
+
+.join-us-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.join-us-form input {
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 0 10px;
+  font-size: 1.2rem;
+}
+
+.join-us-form button {
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 0 10px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.join-us-form button:hover {
+  background-color: #0056b3;
+}
+
+.join-us-section-header h2 {
+  font-size: 2.5rem;
+  color: #333;
+}
